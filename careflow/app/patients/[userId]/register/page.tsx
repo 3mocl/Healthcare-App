@@ -3,7 +3,7 @@ import { getUser } from "@/lib/actions/patient.actions";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import * as Sentry from '@sentry/nextjs'
+import * as Sentry from "@sentry/nextjs"
 
 const Register = async ({ params: { userId } }: SearchParamProps) => {
   const user = await getUser(userId);
