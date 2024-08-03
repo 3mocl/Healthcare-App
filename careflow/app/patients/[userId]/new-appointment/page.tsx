@@ -24,12 +24,12 @@ export default async function NewAppointment({
             className="mb-4 h-10 w-fit"
           />
 
-          <AppointmentForm
+          
+          <AppointmentForm 
             type="create"
             userId={userId}
             patientId={patient.$id}
-            // @ts-ignore
-            setOpen={() => {}}
+            
           />
 
           <p className="copyright mt-10 py-12">© 2024 CareFlow</p>
