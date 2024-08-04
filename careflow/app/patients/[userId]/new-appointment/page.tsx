@@ -32,7 +32,7 @@ export default async function NewAppointment({
             
           />
 
-          <p className="copyright mt-10 py-12">© 2024 CareFlow</p>
+          <p className="copyright mt-10 py-12">© 2024 Clive Moras</p>
         </div>
       </section>
       <Image
